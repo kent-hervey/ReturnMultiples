@@ -1,7 +1,7 @@
 package com.hervey.app;
 
 
-public class ReturnFourThings {
+public class MainAppMultipleData {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
