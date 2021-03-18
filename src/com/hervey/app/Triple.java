@@ -1,17 +1,28 @@
 package com.hervey.app;
 
 
-	
+
+/**
+ * Use this Class when wanting to return multiple data types from a method
+ *
+ * @param <S,I>
+ * @fields stringValue,integerValue1,integerValue2
+ * 
+ */
 public class Triple<S, I>{
 	public S stringValue;
 	public I integerValue1;
 	public I integerValue2;
 	
-	public Triple(S stringValue, I integerValue1, I integerValue2) {
-		this.stringValue=stringValue;
-		this.integerValue1=integerValue1;
-		this.integerValue2=integerValue2;	
+	public Triple() {
+		
 	}
+	
+//	public Triple(S stringValue, I integerValue1, I integerValue2) {
+//		this.stringValue=stringValue;
+//		this.integerValue1=integerValue1;
+//		this.integerValue2=integerValue2;	
+//	}
 
 	public S getStringValue() {
 		return stringValue;
